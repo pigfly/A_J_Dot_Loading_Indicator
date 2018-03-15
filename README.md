@@ -9,7 +9,7 @@
 ![Swift](https://img.shields.io/badge/Swift-%3E%3D%203.1-orange.svg)
 ![npm](https://img.shields.io/npm/l/express.svg)
 
-A-J-Dot-Loading-Indicator is an drop-in solution for full screen image and video browser
+A-J-Dot-Loading-Indicator is an drop-in solution for custom dot loading indicator in iOS
 
 ## Features
 
@@ -28,7 +28,7 @@ A-J-Dot-Loading-Indicator is an drop-in solution for full screen image and video
 
 ## Installation
 
-- drag and drop the entire `core` folder into your project
+- drag and drop the entire `core` folder and `helper` folder into your project
 
 ## Full Usage Example
 
