@@ -24,7 +24,7 @@ public final class AJDotLoadingView: UIView {
     }
 }
 
-private var aj_loadingIndicatorAssociationKey = 0x10234beef
+private var aj_loadingIndicatorAssociationKey = 0x1023
 
 extension AJDotLoadingView: NibLoadable {}
 
@@ -55,6 +55,7 @@ public extension UIView {
 
     public func aj_hideDotLoadingIndicator() {
         aj_loadingIndicator?.stopAnimating()
+        aj_loadingIndicator?.removeFromSuperview()
         aj_loadingIndicator = nil
     }
 }

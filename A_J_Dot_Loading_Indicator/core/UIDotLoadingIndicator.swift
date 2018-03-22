@@ -49,7 +49,7 @@ public final class UIDotLoadingIndicator : UIView {
         var offset :TimeInterval = 0.0
         dotLayers.forEach {
             $0.removeAllAnimations()
-            $0.add(scaleAnimation(offset), forKey: "au.com.carsales.dotLoading.scaleAnima")
+            $0.add(scaleAnimation(offset), forKey: "aj.dotLoading.scaleAnima")
             offset = offset + 0.25
         }
     }
